@@ -1,0 +1,14 @@
+gnews
+inflect
+lxml_html_clean
+matplotlib
+newspaper3k
+numpy
+ollama
+pandas
+requests
+scikit-learn
+scipy
+selenium
+statsmodels
+webdriver-manager
